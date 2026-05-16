@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE（環境依存）
+.idea/
+*.swp
+*.swo
+*~
+
+# ログ・一時ファイル
+*.log
+*.tmp
+*.temp
+
+# 環境変数・秘密情報（必要になったら）
+.env
+.env.*
+!.env.example

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="肌状態・生活習慣を整理して、あなたに必要な美容だけをご提案。無理な勧誘なし、忙しい方向け。" />
+  <title>自分に合う美容を整理する 肌診断・美容提案</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo">skin<span>note</span></a>
+      <nav class="nav-desktop" aria-label="メイン">
+        <a href="#benefit">体験できること</a>
+        <a href="#flow">流れ</a>
+        <a href="#pricing">料金</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#cta-main" class="btn btn-sm btn-primary header-cta">無料で診断する</a>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="メニューを開く">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav" hidden>
+      <div class="container mobile-nav-inner">
+        <a href="#benefit">体験できること</a>
+        <a href="#flow">流れ</a>
+        <a href="#pricing">料金</a>
+        <a href="#faq">FAQ</a>
+        <a href="#cta-main" class="btn btn-primary">無料で診断する</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ① FV -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy fade-in">
+          <p class="eyebrow">自分専用の美容ルート</p>
+          <h1 class="hero-title">
+            情報に振り回されない、<br /><span class="accent">“自分に合う美容”</span>を。
+          </h1>
+          <p class="hero-lead">
+            SNSで見た美容を試しても、本当に自分に合うかわからない。肌の状態・生活習慣・悩みを一緒に整理し、<strong>今のあなたに必要なことだけ</strong>お届けします。
+          </p>
+          <div class="hero-cta-row">
+            <a href="#cta-main" class="btn btn-primary btn-lg">まずは自分に合う美容を知る</a>
+            <span class="cta-note">初回診断は無料（または低価格）でご案内</span>
+          </div>
+          <ul class="trust-inline">
+            <li>高額商品の押し売りなし</li>
+            <li>忙しい人向けに簡潔に</li>
+            <li>必要な美容だけに絞る</li>
+          </ul>
+        </div>
+        <div class="hero-visual fade-in" style="--delay: 0.12s">
+          <div class="hero-photo-frame">
+            <img
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=640&q=80"
+              alt="自然な表情の女性のポートレート"
+              width="640"
+              height="800"
+              loading="eager"
+            />
+            <div class="photo-grain" aria-hidden="true"></div>
+          </div>
+          <aside class="skin-card" aria-label="肌カルテ例">
+            <p class="skin-card-title">あなたの肌カルテ（例）</p>
+            <dl class="skin-metrics">
+              <div><dt>乾燥</dt><dd class="stars" aria-label="深刻さ3段階中3"><span class="star on">★</span><span class="star on">★</span><span class="star on">★</span></dd></div>
+              <div><dt>毛穴</dt><dd class="stars" aria-label="深刻さ3段階中2"><span class="star on">★</span><span class="star on">★</span><span class="star">★</span></dd></div>
+              <div><dt>睡眠の影響</dt><dd><span class="pill pill-warm">高</span></dd></div>
+            </dl>
+            <p class="skin-priority">おすすめ優先度：<strong>保湿</strong> ＞ 角質ケア</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ② 共感 -->
+    <section class="section section-muted" id="empathy">
+      <div class="container narrow">
+        <h2 class="section-title fade-in">こんなこと、ありませんか？</h2>
+        <ul class="check-list fade-in">
+          <li>SNSの美容情報を見すぎて、気持ちが疲れる</li>
+          <li>スキンケアはしているのに、なぜか現状維持のまま</li>
+          <li>おすすめ商品を買っても、ピンとこない</li>
+          <li>自分の肌に本当に合うものがわからない</li>
+          <li>美容にお金をかけすぎたくない</li>
+          <li>忙しくて、複雑なケアは続かない</li>
+        </ul>
+        <p class="closing-copy fade-in">
+          その悩みは「情報不足」ではなく、<br class="hide-mobile" /><strong>自分に合う整理がまだ足りないだけ</strong>かもしれません。
+        </p>
+      </div>
+    </section>
+
+    <!-- ③ ベネフィット -->
+    <section class="section" id="benefit">
+      <div class="container">
+        <h2 class="section-title fade-in">
+          「なんとなく美容」から、<br /><span class="accent-soft">“自分に合う美容”</span>へ。
+        </h2>
+        <div class="benefit-grid">
+          <article class="benefit-card fade-in">
+            <span class="num">01</span>
+            <h3>原因がわかる</h3>
+            <p>なぜ今の肌状態なのか、背景まで言語化します。</p>
+          </article>
+          <article class="benefit-card fade-in">
+            <span class="num">02</span>
+            <h3>やることがシンプルに</h3>
+            <p>優先順位をつけ、毎日の習慣に落とし込みます。</p>
+          </article>
+          <article class="benefit-card fade-in">
+            <span class="num">03</span>
+            <h3>無駄買いが減る</h3>
+            <p>本当に必要なアイテムだけに絞って提案します。</p>
+          </article>
+          <article class="benefit-card fade-in">
+            <span class="num">04</span>
+            <h3>忙しくても続く</h3>
+            <p>頑張りすぎない、“生活に馴染む美容”を大切にします。</p>
+          </article>
+          <article class="benefit-card benefit-wide fade-in">
+            <span class="num">05</span>
+            <h3>肌の調子が整い、自信の土台に</h3>
+            <p>毎日の小さな変化が、自分への信頼に繋がります。</p>
+          </article>
+        </div>
+        <div class="diagram fade-in">
+          <div class="diagram-col diagram-before">
+            <p class="diagram-label">Before</p>
+            <p class="diagram-main">迷い・比較・試し続け</p>
+            <p class="diagram-sub">情報が散らばっている状態</p>
+          </div>
+          <div class="diagram-arrow" aria-hidden="true">
+            <span>整理</span>
+          </div>
+          <div class="diagram-col diagram-after">
+            <p class="diagram-label">After</p>
+            <p class="diagram-main">自分基準・意思決定が早い</p>
+            <p class="diagram-sub">必要な美容だけが見える状態</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ④ 流れ -->
+    <section class="section section-muted" id="flow">
+      <div class="container">
+        <h2 class="section-title fade-in">あなた専用の美容を、<br />この流れで整理します</h2>
+        <ol class="steps">
+          <li class="step fade-in">
+            <span class="step-badge">STEP 1</span>
+            <h3>肌・生活習慣ヒアリング</h3>
+            <p>今のケア、眠り方、ストレスなどを丁寧に伺います。</p>
+          </li>
+          <li class="step fade-in">
+            <span class="step-badge">STEP 2</span>
+            <h3>AI × 個別分析</h3>
+            <p>入力内容をもとに、傾向と優先課題を可視化します。</p>
+          </li>
+          <li class="step fade-in">
+            <span class="step-badge">STEP 3</span>
+            <h3>あなた専用の美容提案</h3>
+            <p>予算と相性を考え、具体的なケア順をお渡しします。</p>
+          </li>
+          <li class="step fade-in">
+            <span class="step-badge">STEP 4</span>
+            <h3>必要に応じてライト相談</h3>
+            <p>迷ったときに短時間で相談できる導線をご用意。</p>
+          </li>
+        </ol>
+        <p class="flow-note fade-in">
+          「頑張る美容」ではなく、<strong>今の生活でできる美容</strong>を一番に考えています。
+        </p>
+      </div>
+    </section>
+
+    <!-- ⑤ 比較 -->
+    <section class="section" id="compare">
+      <div class="container">
+        <h2 class="section-title fade-in">おすすめ商品だけで終わらない、<br /><span class="accent-soft">あなた基準</span>の美容。</h2>
+        <div class="compare-table-wrap fade-in">
+          <table class="compare-table">
+            <tbody>
+              <tr>
+                <th scope="row">SNSの美容情報</th>
+                <td>情報量が多く、自分向きか判断しづらい</td>
+              </tr>
+              <tr>
+                <th scope="row">美容部員さん</th>
+                <td>店舗・ブランドの選択肢が中心になりがち</td>
+              </tr>
+              <tr>
+                <th scope="row">美容医療</th>
+                <td>費用・通院のハードルが高めなことも</td>
+              </tr>
+              <tr class="highlight-row">
+                <th scope="row">このサービス</th>
+                <td>必要な美容だけを整理／無理なく続く設計／コスパも視野に入れた提案</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑥ 事例 -->
+    <section class="section section-muted" id="example">
+      <div class="container narrow">
+        <h2 class="section-title fade-in">実際にどんな提案がもらえるの？</h2>
+        <article class="case-card fade-in">
+          <header class="case-header">
+            <span class="case-meta">28歳・混合肌・毛穴悩み</span>
+          </header>
+          <div class="case-body">
+            <div class="case-block">
+              <h3>原因の整理</h3>
+              <p>睡眠不足に加え、洗いすぎでバリアが乱れやすい傾向。</p>
+            </div>
+            <div class="case-block">
+              <h3>優先度</h3>
+              <ol class="case-priority">
+                <li>保湿の土台づくり</li>
+                <li>クレンジング方法の見直し</li>
+                <li>ビタミンC導入（段階的に）</li>
+              </ol>
+            </div>
+            <div class="case-block">
+              <h3>ご予算の目安</h3>
+              <p>月 <strong>＋3,000円以内</strong> で買い足しできるラインに調整。</p>
+            </div>
+          </div>
+          <p class="case-tagline">「頑張りすぎない改善」がコンセプトの一例です。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ⑦ 声 -->
+    <section class="section" id="voices">
+      <div class="container">
+        <h2 class="section-title fade-in">ご利用者の声</h2>
+        <div class="voice-grid">
+          <blockquote class="voice-card fade-in">
+            <p>「何を買えばいいか」で止まっていた時間が、一気に楽になりました。</p>
+            <footer>20代後半・会社員（モニター）</footer>
+          </blockquote>
+          <blockquote class="voice-card fade-in">
+            <p>肌だけでなく、情報に振り回されてる感じが減りました。</p>
+            <footer>30代・母親（モニター）</footer>
+          </blockquote>
+          <blockquote class="voice-card fade-in">
+            <p>試し買いが減って、実際に使い切れるものが増えました。</p>
+            <footer>20代・フリーランス（モニター）</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑧ 料金 -->
+    <section class="section section-muted" id="pricing">
+      <div class="container">
+        <h2 class="section-title fade-in">まずは気軽に試せます</h2>
+        <div class="pricing-grid">
+          <article class="price-card fade-in">
+            <h3>単発プラン</h3>
+            <p class="price"><span class="currency">¥</span>3,980<span class="from">〜</span></p>
+            <ul class="price-list">
+              <li>肌分析レポート</li>
+              <li>個別提案・ケア順の整理</li>
+            </ul>
+            <a href="#cta-main" class="btn btn-secondary btn-block">このプランで知る</a>
+          </article>
+          <article class="price-card price-card-featured fade-in">
+            <span class="plan-badge">続けやすい</span>
+            <h3>継続プラン（月額）</h3>
+            <p class="price"><span class="currency">¥</span>4,980<span class="from">〜</span></p>
+            <ul class="price-list">
+              <li>LINEでのライト相談</li>
+              <li>季節のアドバイス</li>
+              <li>肌の変化に合わせた見直し</li>
+            </ul>
+            <a href="#cta-main" class="btn btn-primary btn-block">続けて整えたい方はこちら</a>
+          </article>
+        </div>
+        <p class="pricing-note fade-in">無理な継続のお声がけはしません。単発のみでも大丈夫です。</p>
+      </div>
+    </section>
+
+    <!-- ⑨ FAQ -->
+    <section class="section" id="faq">
+      <div class="container narrow">
+        <h2 class="section-title fade-in">よくある質問</h2>
+        <div class="faq-list">
+          <details class="faq-item fade-in">
+            <summary>高額商品を勧められますか？</summary>
+            <p>ありません。ご予算に合わせて、無理なご負担にならないラインで提案します。</p>
+          </details>
+          <details class="faq-item fade-in">
+            <summary>美容初心者じゃないとダメですか？</summary>
+            <p>いいえ。すでに美容を頑張っている方ほど、「整理」の効果を実感しやすいケースがあります。</p>
+          </details>
+          <details class="faq-item fade-in">
+            <summary>忙しくても続けられますか？</summary>
+            <p>はい。毎日の負担を増やしすぎないよう、ミニマムなアクションから設計します。</p>
+          </details>
+          <details class="faq-item fade-in">
+            <summary>肌荒れが深刻でなくても大丈夫？</summary>
+            <p>はい。「もっと自分に合う美容を知りたい」方に向けたサービスです。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑩ 最終CTA -->
+    <section class="section cta-final" id="cta-main">
+      <div class="container narrow cta-box fade-in">
+        <h2 class="cta-title">“なんとなく美容”を卒業して、<br />自分に合う美容を見つけませんか？</h2>
+        <p class="cta-lead">まずは短い診断とヒアリングから。あなたのペースに合わせてご案内します。</p>
+        <div class="hero-cta-row">
+          <a href="#" class="btn btn-primary btn-lg js-line-placeholder" data-line-url="#">LINEで無料診断を受ける</a>
+          <a href="#" class="btn btn-ghost btn-lg js-form-placeholder" data-form-url="#">診断フォームから始める</a>
+        </div>
+        <ul class="trust-inline trust-centered">
+          <li>所要時間 約5分</li>
+          <li>しつこい勧誘なし</li>
+          <li>忙しい方向けの設計</li>
+        </ul>
+        <p class="cta-fineprint">※ LINE登録URL・フォームURLは運用に合わせて差し替えてください。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="logo footer-logo">skin<span>note</span></p>
+      <p class="copyright">&copy; 2026 skin note. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
